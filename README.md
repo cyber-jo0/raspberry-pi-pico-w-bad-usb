@@ -5,12 +5,6 @@
   <img src="https://komarev.com/ghpvc/?username=cyber-jo0&label=Profile%20views&color=blueviolet&style=flat" alt="cyber-jo0" />
 </p>
 
-<p align="center"> 
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=cyber-jo0&theme=dracula&margin-w=10&margin-h=10" alt="cyber-jo0" />
-  </a>
-</p>
-
 ---
 
 - hi im mouhmed → 
@@ -113,11 +107,6 @@ qwertz.py
 payloads/
 payload.txt
 
-php-template
-Copy code
-
-Payloads can be added or modified freely inside /payloads.
-
 ---
 
 <h2>⚙️ Installation Guide (Pico W)</h2>
@@ -150,22 +139,3 @@ Copy into CIRCUITPY:
 SSID = "PicoW_AP"
 PASSWORD = "12345678"
 LAYOUT = "QWERTY"
-<h3>5️⃣ Plug In & Execute</h3> Your Pico W now behaves as a full BadUSB device.
-<h2>🚀 Summary</h2>
-This project provides:
-
-Full Ducky Script 1.0 / 2.0 / 3.0 support
-
-Multi-language keyboard layouts
-
-High-speed HID injection
-
-WiFi-based remote payload execution
-
-More features than the original USB Rubber Ducky
-
-Perfect for developers, testers, cybersecurity researchers, automation engineers, and more.
-
-<h3 align="left">Connect with me:</h3> <p align="left"> <a href="https://instagram.com/cybe_rjo" target="blank"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="cybe_rjo" height="30" width="40" /> </a> <a href="https://www.youtube.com/@cyber-jo" target="blank"> <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@cyber-jo" height="30" width="40" /> </a> </p>
-<h3 align="center">Languages and Tools</h3> <p align="center"> <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://git-s-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api/top-langs?username=cyber-jo0&show_icons=true&locale=en&layout=compact&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=cyber-jo0&show_icons=true&locale=en&theme=tokyonight" /> </p> <p align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=cyber-jo0&theme=tokyonight" /> </p> ```
