@@ -14,6 +14,19 @@
 
 ---
 
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+  <a href="https://instagram.com/cybe_rjo" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
+  </a>
+
+  <a href="https://www.youtube.com/@cyber-jo" target="blank">
+    <img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" height="30" width="40" />
+  </a>
+</p>
+
+---
+
 <h2 align="center">🔥 Raspberry Pi Pico W BadUSB – Advanced DuckyScript Executor</h2>
 
 <p align="left">
@@ -95,17 +108,19 @@ It offers far more flexibility and power than the classic USB Rubber Ducky.
 
 <h2>📁 Project Structure</h2>
 
+<pre>
 boot.py
 main.py
 command.py
 keyboard.py
 web.py
 layouts/
-qwerty.py
-azerty.py
-qwertz.py
+├── qwerty.py
+├── azerty.py
+└── qwertz.py
 payloads/
-payload.txt
+└── payload.txt
+</pre>
 
 ---
 
@@ -116,11 +131,20 @@ Official UF2 firmware:
 https://circuitpython.org/board/raspberry_pi_pico_w/
 
 <h3>2️⃣ Flash the UF2</h3>
-1. Hold <b>BOOTSEL</b>  
-2. Plug the Pico W into USB  
-3. Drop the UF2 file into <b>RPI-RP2</b>
 
-The board reboots into <b>CIRCUITPY</b>.
+<div align="center">
+  <img src="https://cdn.mos.cms.futurecdn.net/YMHbEdaP54VSWzUaw7YkzF-970-80.jpg.webp" width="500">
+</div>
+
+1. Hold the <b>BOOTSEL</b> button  
+2. Plug the Pico W into your computer  
+3. It will appear as <b>RPI-RP2</b>  
+4. Drag & drop the UF2 file  
+5. It will reboot as <b>CIRCUITPY</b>
+
+<div align="center">
+  <img src="https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/05/Raspberry-Pi-Pico-W.jpg?w=750" width="500">
+</div>
 
 <h3>3️⃣ Copy the Project Files</h3>
 
@@ -133,7 +157,7 @@ Copy into CIRCUITPY:
 - layouts/  
 - payloads/  
 
-<h3>4️⃣ (Optional) Configure WiFi + Layout</h3>
+<h3>4️⃣ Configure WiFi (Optional)</h3>
 
 ```python
 SSID = "PicoW_AP"
